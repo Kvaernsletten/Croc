@@ -1,0 +1,91 @@
+.points, .timer{
+    font-size: 300%;
+    font-weight: 800;
+}
+.croc{
+    z-index: 1;
+    width: 50%;
+    height: 50%;
+    max-width: 40%;
+    max-height: 50%;
+    margin-top: 70px;
+}
+.speechBubble{
+    z-index: 2;
+    width: 40%;
+    height: 40%;
+    max-width: 30%;
+    max-height: 40%;
+    margin-right: -50px;
+    margin-bottom: -50px;
+}
+.pictures{
+    display: flex;
+    justify-content: center;
+}
+.numDiv{
+    font-size: 200%;
+    font-weight: 800;
+}
+.inputAnswer{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.inputButtons{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.answerButtons{
+    display: flex;
+    justify-content: center;
+}
+.correct{
+    z-index: 2;
+    width: 30%;
+    height: 30%;
+    max-width: 25%;
+    max-height: 35%;
+    margin-right: -25%;
+    margin-bottom: -30%;
+    margin-top: 6%;
+    opacity: 0;
+}
+.wrong{
+    z-index: 3;
+    width: 30%;
+    height: 30%;
+    max-width: 25%;
+    max-height: 35%;
+    margin-right: -27%;
+    margin-bottom: -30%;
+    margin-top: 6%;
+    opacity: 0;
+}
+
+.finalScore{
+    z-index: 3;
+    width: 30%;
+    height: 30%;
+    max-width: 25%;
+    max-height: 35%;
+    margin-right: -30%;
+    margin-bottom: -30%;
+    margin-top: 6%;
+    font-weight: 800;
+}
+.scoreNumber{
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+}
